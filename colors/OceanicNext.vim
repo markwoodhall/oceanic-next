@@ -35,14 +35,14 @@ hi Underlined guifg=#ec5f67 ctermfg=203
 hi Visual guibg=#4f5b66 ctermbg=240
 hi VisualNOS guifg=#ec5f67 ctermfg=203
 hi WarningMsg guifg=#ec5f67 ctermfg=203
-hi WildMenu guifg=#ffffff ctermfg=15 guibg=#6699cc ctermbg=68
+hi WildMenu guifg=#fffffD ctermfg=15 guibg=#6699cc ctermbg=68
 hi Title guifg=#6699cc ctermfg=68 gui=NONE cterm=NONE
 hi Conceal guifg=#6699cc ctermfg=68 guibg=#1b2b34 ctermbg=235
 hi Cursor guifg=#1b2b34 ctermfg=235 guibg=#c0c5ce ctermbg=251
 hi NonText guifg=#65737e ctermfg=243
-hi Normal guifg=#c0c5ce ctermfg=251 guibg=#1b2b34 ctermbg=235
+hi Normal guifg=#fcfcfc ctermfg=251 guibg=#1b2b34 ctermbg=235
 hi LineNr guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
-hi CursorLineNR guifg=#ffffff ctermfg=15 guibg=#ffffff ctermbg=15
+hi CursorLineNR guifg=#eae5e5 ctermfg=15 guibg=#eae5e5 ctermbg=15
 hi SignColumn guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
 hi StatusLine guifg=#a7adba ctermfg=145 guibg=#4f5b66 ctermbg=240 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
@@ -92,10 +92,15 @@ hi SpellRare guibg=#1b2b34 ctermbg=235 gui=undercurl cterm=undercurl
 hi csClass guifg=#fac863 ctermfg=221
 hi csAttribute guifg=#fac863 ctermfg=221
 hi csModifier guifg=#c594c5 ctermfg=176
+hi csPublicModifier guifg=#99c794 ctermfg=114
+hi csPrivateModifier guifg=#c0c5ce ctermfg=203
+hi csQuiet guifg=#343d46 ctermfg=203
+hi csLoud guifg=#ec5f67 ctermfg=203
 hi csType guifg=#ec5f67 ctermfg=203
 hi csUnspecifiedStatement guifg=#6699cc ctermfg=68
 hi csContextualStatement guifg=#c594c5 ctermfg=176
 hi csNewDecleration guifg=#ec5f67 ctermfg=203
+hi csAssignment guifg=#6699cc ctermfg=68
 hi cOperator guifg=#62b3b2 ctermfg=73
 hi cPreCondit guifg=#c594c5 ctermfg=176
 hi cssColor guifg=#62b3b2 ctermfg=73
@@ -105,11 +110,11 @@ hi DiffAdd guifg=#99c794 ctermfg=114 guibg=#343d46 ctermbg=237
 hi DiffChange guifg=#65737e ctermfg=243 guibg=#343d46 ctermbg=237
 hi DiffDelete guifg=#ec5f67 ctermfg=203 guibg=#343d46 ctermbg=237
 hi DiffText guifg=#6699cc ctermfg=68 guibg=#343d46 ctermbg=237
-hi DiffAdded guifg=#ffffff ctermfg=15 guibg=#99c794 ctermbg=114
+hi DiffAdded guifg=#eae5e5 ctermfg=15 guibg=#99c794 ctermbg=114
 hi DiffFile guifg=#ec5f67 ctermfg=203 guibg=#1b2b34 ctermbg=235
 hi DiffNewFile guifg=#99c794 ctermfg=114 guibg=#1b2b34 ctermbg=235
 hi DiffLine guifg=#6699cc ctermfg=68 guibg=#1b2b34 ctermbg=235
-hi DiffRemoved guifg=#ffffff ctermfg=15 guibg=#ec5f67 ctermbg=203
+hi DiffRemoved guifg=#eae5e5 ctermfg=15 guibg=#ec5f67 ctermbg=203
 hi gitCommitOverflow guifg=#ec5f67 ctermfg=203
 hi gitCommitSummary guifg=#99c794 ctermfg=114
 hi htmlBold guifg=#fac863 ctermfg=221
@@ -130,7 +135,7 @@ hi markdownCodeDelimiter guifg=#ab7967 ctermfg=137 gui=italic cterm=italic
 hi markdownError guifg=#c0c5ce ctermfg=251 guibg=#1b2b34 ctermbg=235
 hi NeomakeErrorSign guifg=#ec5f67 ctermfg=203 guibg=#343d46 ctermbg=237
 hi NeomakeWarningSign guifg=#fac863 ctermfg=221 guibg=#343d46 ctermbg=237
-hi NeomakeInfoSign guifg=#ffffff ctermfg=15 guibg=#343d46 ctermbg=237
+hi NeomakeInfoSign guifg=#eae5e5 ctermfg=15 guibg=#343d46 ctermbg=237
 hi NeomakeError guifg=#ec5f67 ctermfg=203 gui=undercurl cterm=undercurl
 hi NeomakeWarning guifg=#ec5f67 ctermfg=203 gui=undercurl cterm=undercurl
 hi NERDTreeExecFile guifg=#c0c5ce ctermfg=251
