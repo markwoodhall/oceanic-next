@@ -94,7 +94,12 @@ hi csAttribute guifg=#fac863 ctermfg=221
 hi csModifier guifg=#c594c5 ctermfg=176
 hi csPublicModifier guifg=#99c794 ctermfg=114
 hi csPrivateModifier guifg=#c0c5ce ctermfg=203
+hi csString guifg=#fcf7c2 ctermfg=203
+hi csVerbatimString guifg=#fcf7c2 ctermfg=203
+hi csInterpolatedString guifg=#fcf7c2 ctermfg=203
 hi csQuiet guifg=#343d46 ctermfg=203
+hi csEval guibg=#343d46 guifg=#99c794
+hi csEvalError guibg=#343d46 guifg=#ec5f67
 hi csLoud guifg=#ec5f67 ctermfg=203
 hi csType guifg=#ec5f67 ctermfg=203
 hi csUnspecifiedStatement guifg=#6699cc ctermfg=68
