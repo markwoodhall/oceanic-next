@@ -97,7 +97,8 @@ hi csPrivateModifier guifg=#c0c5ce ctermfg=203
 hi csString guifg=#fcf7c2 ctermfg=203
 hi csVerbatimString guifg=#fcf7c2 ctermfg=203
 hi csInterpolatedString guifg=#fcf7c2 ctermfg=203
-hi csQuiet guifg=#404552 ctermfg=203
+hi csQuiet guifg=#65737e ctermfg=203
+hi csMedium guifg=#65737e ctermfg=203
 hi csLoud guifg=#ec5f67 ctermfg=203
 hi csType guifg=#ec5f67 ctermfg=203
 hi csUnspecifiedStatement guifg=#5294e2 ctermfg=68
